@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+
+<body>
+    <form action="url" method="get" autocomplete="off">
+
+        <label for="fname">First Name: </label>
+        <input type="text" name="" id="fname" placeholder="First Name">
+        <br><br>
+        <label for="lname">Last Name: </label>
+        <input type="text" name="" id="lname" placeholder="Last Name">
+        <br><br>
+        <label for="email">Enter Email: </label>
+        <input type="email" name="" id="email" placeholder="Enter Email">
+        <br><br>
+        <label for="password">Enter Email: </label>
+        <input type="password" name="" id="password" placeholder="Enter password">
+        <br><br>
+        <label for="option">Choose Option One: </label>
+        <select name="" id="option">
+            <option value="vscode">vscode</option>
+            <option value="sublime-text">sublime-text</option>
+        </select>
+
+        <br><br>
+        <input type="range" name="" id="" min="0" max="100">
+        <br><br>
+        <label for="submit">Submit Data: </label>
+        <input type="submit" name="" id="submit" onclick=dataSubmit()>
+        <br><br>
+
+    </form>
+    <script>
+        function dataSubmit() {
+            alert("You data is submit successfully!")
+        }
+    </script>
+</body>
+
+</html>
