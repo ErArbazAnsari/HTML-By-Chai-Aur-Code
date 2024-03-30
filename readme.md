@@ -22,4 +22,4 @@ If you have any questions, feel free to reach out to me.
 
 ## Acknowledgements
 
-- [@ChaiAurCode] - For the excellent tutorials on HTML
+- [@ChaiAurCode] - For the excellent tutorials on *HTML*
