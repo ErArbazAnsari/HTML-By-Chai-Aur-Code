@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="img.jpe" alt="myimg" with="200" height="400">
+
+    <br>
+    <br>
+    <img src="img.jpeg" usemap="#image-map">
+    <map name="image-map">
+        <area target="_self" alt="" title="face" onclick=one() href="" coords="196,289,335,458" shape="rect">
+        <area target="_self" onclick=two() alt="" title="leafe" href="" coords="261,621,72" shape="circle">
+    </map>
+    <script>
+        function one() {
+            alert("Face was clicked.")
+        }
+        function two() {
+            alert("Leaf was clicked.")
+        }
+    </script>
+</body>
+
+</html>
